@@ -46,8 +46,7 @@ Why change it: because you want to de-emphasise exactly which part of the UI to 
 All the code is in `lib/main.dart`. In the `_fadeIfSoldOut` method, it's used to return the widget if the product is available; otherwise, it wraps the widget in the `Opacity` widget. The slider, switch and toggle call setState which will re-create the cards with the new values.
 
  Screenshot
-
-![Final UI]![alt text](image.png)
+<img width="1348" height="896" alt="screen" src="https://github.com/user-attachments/assets/c513eb04-ba16-4fa8-98f7-44f08a10567c" />
 
  Related widget
 
