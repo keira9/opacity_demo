@@ -1,4 +1,4 @@
-#Opacity Widget Demo
+##Opacity Widget Demo
 
 Small Flutter app demonstrating the Opacity widget which can make its child fine-tuned between 0.0 (invisible), and 1.0 (fully visible).
 
