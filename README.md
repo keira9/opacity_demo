@@ -1,14 +1,14 @@
-Opacity Widget Demo
+#Opacity Widget Demo
 
 Small Flutter app demonstrating the Opacity widget which can make its child fine-tuned between 0.0 (invisible), and 1.0 (fully visible).
 
- What the demo shows
+ #What the demo shows
 
 The app is a " Photo Gear Shop" screen having a lineup of items. Products that are out of stock (Tripod Stand and Lens Cleaning Kit) will be packaged in opacity and thus will be visibly dimmed next to the products available. This is a common, real world situation to show that an item is not available but not to take it off the list.
 
 There is a control panel at the bottom of the screen that you can use when you are using the app to adjust the Opacity properties.
 
- How to run
+ #How to run
 
 1. Add Flutter and test it using flutter doctor.
 2. Click on the repository of this project and open the project folder.
@@ -21,7 +21,7 @@ flutter run -d chrome
 
 It can also be executed using an Android emulator, connected device or Windows desktop, depending on the device you choose: `flutter devices` and `flutter run -d <device>`.
 
- The three attributes
+ #The three attributes
 
  1. `opacity`
 Defines the transparency of the child, in range 0.0 - 1.0. This is an argument passed by and not supplied with a default value, and is 1.0 in plain sight.
@@ -41,7 +41,7 @@ The widget which fades out. It is required.
 With the “Whole card” option, the entire product card is wrapped and the image and the text fade together in the demo. The "Image only" option will wrap the image only, with the product name and price clearly visible.
 Why change it: because you want to de-emphasise exactly which part of the UI to do that on.
 
- Code overview
+ #Code overview
 
 All the code is in `lib/main.dart`. In the `_fadeIfSoldOut` method, it's used to return the widget if the product is available; otherwise, it wraps the widget in the `Opacity` widget. The slider, switch and toggle call setState which will re-create the cards with the new values.
 
